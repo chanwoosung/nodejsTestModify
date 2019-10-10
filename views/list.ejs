@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title><%=title %></title>
+  </head>
+  <body>
+     <% lists.forEach((testTxid)=>{%>
+      <li><%=testTxid.txid%></li>
+      <li><%=testTxid.blockhash%></li>
+     <%}); %>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start":"nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ionic:build": "node --max-old-space-size=8192 --stack-size=1968 node_modules/@ionic/app-scripts/bin/ionic-app-scripts.js build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "crypto": "^1.0.1",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.7.1",
+    "mongoose-auto-increment": "^5.0.1",
+    "morgan": "^1.9.1",
+    "mysql": "^2.17.1",
+    "sequelize": "^5.19.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "nodemon": "^1.19.2"
+  }
+}
